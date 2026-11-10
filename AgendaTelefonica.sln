@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37710.0 d17.14
+VisualStudioVersion = 17.14.37710.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaTelefonica", "AgendaTelefonica\AgendaTelefonica.csproj", "{1CF5CA54-A1C8-403D-A28F-A88C26834D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{9833711B-1252-4302-8CCF-F8A3F292D0FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{D82AE87C-086B-4318-A824-2822EB57AAAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1CF5CA54-A1C8-403D-A28F-A88C26834D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CF5CA54-A1C8-403D-A28F-A88C26834D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CF5CA54-A1C8-403D-A28F-A88C26834D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9833711B-1252-4302-8CCF-F8A3F292D0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9833711B-1252-4302-8CCF-F8A3F292D0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9833711B-1252-4302-8CCF-F8A3F292D0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9833711B-1252-4302-8CCF-F8A3F292D0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82AE87C-086B-4318-A824-2822EB57AAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82AE87C-086B-4318-A824-2822EB57AAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82AE87C-086B-4318-A824-2822EB57AAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82AE87C-086B-4318-A824-2822EB57AAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

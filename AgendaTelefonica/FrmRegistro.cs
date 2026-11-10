@@ -10,21 +10,18 @@ using System.Windows.Forms;
 
 namespace AgendaTelefonica
 {
-    public partial class Form1 : Form
+    public partial class FrmRegistro : Form
     {
-        public Form1()
+        public FrmRegistro()
         {
             InitializeComponent();
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        private void linkIniciosesion_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
-        }
-
-        private void btnEliminar_Click(object sender, EventArgs e)
-        {
-   
+            FrmLogin Ventanalogin = new FrmLogin();
+            Ventanalogin.Show();
+            this.Close();
         }
     }
 }
